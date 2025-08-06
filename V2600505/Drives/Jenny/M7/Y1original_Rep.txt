@@ -1,0 +1,178 @@
+Report File of XENAX Xvi75V8 Servocontroller
+--------------------------------------------
+
+******* System Configuration *******
+Motor: LINAX Lxu160F60-6
+XENAX Firmware: V 5.10G
+XENAX Hardware: V 4.00
+WebMotion:      V 6.10G
+Busmodul:       EtherCAT V 2.72
+SMU:            Safety V 1.08 / Checksum 0xAD59
+
+******* General *******
+Program Mapping = 0 (Program 1..15 max. 50 program lines, Program 16..63 max. 10 program lines)
+Encoder Plausibility Check = ENABLED
+New P402 Set Point Acknowledge = ENABLED
+Enhanced Bandwidth Mode = ENABLED
+Current Feed Forward = ENABLED
+Application Motor Settigns from 161606
+
+******* Limits *******
+LR Software Position Limit Right              = 160000
+LL Software Position Limit Left               = 0
+
+******* Emergency *******
+ED Emergency Deceleration                     = 10000000
+BRKD Brake Delay                              = 100
+
+******* I/O *******
+ILA Input Low Active                          = 0
+ILAS Input Low Active Selective               = 0
+SOA Output Activity                           = 255
+SOT Output Type                               = 21845
+
+******* State Controller *******
+MAMO Mass Motor (lin) | Inertia Motor (rot)   = 940
+ML Payload (lin) | Inertia Load (rot)         = 0
+ACB Acceleration Boost                        = 0
+BWP Bandwidth Position Controller             = 50
+PPSD Pole Placement Stability Dynamics        = 0
+SORF Input Shaping Frequency          		   = 0
+SORD Input Shaping Damping          		   = 0
+BWC Bandwidth Current Controller              = 300
+FFC Frequency Filter Current                  = 0
+FFS Frequency Filter Speed                    = 0
+AVF Avoid Vibration Frequency                 = 0
+FQC Bandwidth Filter Current                  = 5000
+FQS Bandwidth Filter Speed                    = 20000
+AVD Avoid Vibration Damping                   = 1
+DP Deviation Position                         = 2000
+DTP Deviation Target Position                 = 50
+
+******* Motor *******
+IS Stop Current (lin) | Nominal Current (rot) = 800
+IR Run Current  (lin) | Torque  Current (rot) = 1800
+POL Pole Pairs                                = 1
+ENC Encoder Increments per Revolution         = 24000
+PHD Phase Direction                           = 0
+PHO Phase Offset                              = 0
+RPH Resistance  Phase-Phase                   = 1100
+LPH Inductivity Phase-Phase                   = 3050
+FCM Force Constant                            = 10000
+FFDY Dynamic Friction                         = 1244
+FFST Static Friction                          = 5500
+ROID Rotative Motor Identifier                = 0
+
+******* Basic *******
+MD Mode                                       = 0
+ICP Increments per Pulse                      = 0
+SR Synchronous Ratio                          = 0
+CI Card Identifier                            = 0
+CAB Can Baud Rate                             = 500000
+PCT PDO Cycle Time                            = 500
+
+******* Reference Linear *******
+DRHR Direction Reference Linear               = 0
+GSID Gantry Slave Identifier                  = 0
+PGMSO PresetGantryMasterSlaveOffset           = 0
+
+******* Reference Rotative *******
+DRH Direction Reference Rotative              = 1
+SPH Reference Speed                           = 5000
+INH Reference Input                           = 0
+DRZ Direction to Z-Mark                       = 1
+SPZ Speed to Z-Mark                           = 500
+Clear Outputs                                 = 0
+
+******* Reference Limit Stop *******
+Creep Direction                               = 1
+Creep Speed                                   = 5000
+Current Home                                  = 300
+DevPos Home                                   = 0
+
+******* Reference ELAX *******
+MLPN Mechanical Limit Position Negative       = 0
+MLPP Mechanical Limit Position Positive       = 0
+
+******** Motion *********
+AC Acceleration                               = 1000000
+SP Speed                                      = 100000
+WA Way (relative)                             = 20000
+PO Position (absolute)                        = 0
+SCRV S-Curve Profile                          = 20
+WT Wait Repeat (Testfunction)                 = 0
+OVRD Override                                 = 100
+
+******** Phasing Rotative *********
+PWRT Phasing Rotative without Hall            = 0
+
+******* Input Functions ******
+
+******* Output Functions ******
+
+******* Sector I_Force 1 ***************
+Sector IForce Start   = 0
+Sector IForce End     = 160000
+IForce Low  x10mA     = 0
+IForce High x10mA     = 0
+Sector Transit Config = 28784
+
+
+******* Correction Table *******
+Status          = OFF
+Start Position  = 0
+Distance Points = 10000
+
+Encoder [inc]     Physical [inc]
+0                 0
+10000             10000
+20000             20000
+30000             30000
+40000             40000
+50000             50000
+60000             60000
+70000             70000
+80000             80000
+90000             90000
+100000            100000
+110000            110000
+120000            120000
+130000            130000
+140000            140000
+150000            150000
+160000            160000
+170000            170000
+180000            180000
+190000            190000
+200000            200000
+210000            210000
+220000            220000
+230000            230000
+240000            240000
+250000            250000
+260000            260000
+270000            270000
+280000            280000
+290000            290000
+300000            300000
+310000            310000
+320000            320000
+330000            330000
+340000            340000
+350000            350000
+360000            360000
+370000            370000
+380000            380000
+390000            390000
+400000            400000
+410000            410000
+420000            420000
+430000            430000
+440000            440000
+450000            450000
+460000            460000
+470000            470000
+480000            480000
+490000            490000
+500000            500000
+

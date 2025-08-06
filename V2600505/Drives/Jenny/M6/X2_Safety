@@ -1,0 +1,18 @@
+Safety Parameters of XENAX Servocontroller with SMU
+---------------------------------------------------
+
+INPUT 1 = STO SAFE TORQUE OFF
+INPUT 2 = STO SAFE TORQUE OFF
+INPUT 3 = SS2 SAFE STOP 2
+INPUT 4 = SS2 SAFE STOP 2
+INPUT 5 = SLS SAFELY LIMITED SPEED
+INPUT 6 = SLS SAFELY LIMITED SPEED
+INPUT 7 = ---
+INPUT 8 = ---
+
+STOP TIMEOUT         = 1000 ms
+SLS TIMEOUT          = 1000 ms
+POSITION WINDOW      = 1000 inc
+SAFELY LIMITED SPEED = 40000 inc/s
+
+<parameters>1,1,3,3,4,4,0,0,1000,1000,1000,40000,1404237372,1170215399,1,23541</parameters>
